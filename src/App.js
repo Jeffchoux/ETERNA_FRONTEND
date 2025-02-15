@@ -1,8 +1,12 @@
-import React from "react";
-import AuthPage from "./pages/AuthPage";
+import Button from "./components/Button";
 
 function App() {
-  return <AuthPage />;
+  return (
+    <div>
+      <h1>Bienvenue sur ETERNA.APP</h1>
+      <Button>Commencer</Button>
+    </div>
+  );
 }
 
 export default App;
